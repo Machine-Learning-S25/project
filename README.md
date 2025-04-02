@@ -2,10 +2,6 @@
 Machine Learning | Spring 2025
 ## Milestone 01: Ideation
 
-Do you expect to have to do a lot of pre-processing of the data ?
-Does it make sense to have data split into train/test datasets ?
-How would you evaluate your model/tool/visualizations ?
-
 ### Idea 1
 [Cat and Dog in Museum](https://monsichasris.github.io/major-studio-1/project01/) - I made this project last semester using data from Smithsonian Museums
 I categorized by title or description text provided, but the result is not accurated as much as I hope. Since I didn't know ML back then, Now I know some!
