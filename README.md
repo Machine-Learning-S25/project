@@ -1,5 +1,13 @@
 # Final Project
 Machine Learning | Spring 2025
+
+## Milestone 02: Process
+Continue working on thesis<br>
+[Images Files](https://github.com/monsichasris/thesis/tree/main/public/street_view_images) from google street view<br>
+Tried to detect the sign from the images [Colab](https://colab.research.google.com/drive/13NEVTO0-jVZzd8Inwl_DPUeSw6_Uf6K9?usp=sharing)
+![download](https://github.com/user-attachments/assets/c1b5455f-d6fc-4f7f-a4d5-665c63922542)
+![download (2)](https://github.com/user-attachments/assets/ec573cd3-dfac-4d7d-9198-9d1d6928d5dd)
+
 ## Milestone 01: Ideation
 
 ### Idea 1
