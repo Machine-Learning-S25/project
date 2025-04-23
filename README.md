@@ -1,16 +1,27 @@
 # Final Project
 
-Machine Learning | Spring 2025
+<b>Machine Learning PSAM 5020 | Spring 2025</b><br>
+Monsicha Srisuantang, MS Data Visualisation Parsons School of Design
+
+## Milestone 3: Update
+
+After exploring Zero-shot and YOLO World (files in the [milestone2](https://github.com/Machine-Learning-S25/project/tree/main/Milestone2) folder), which took a lot of time to run, I ended up using the OpenAI API to detect:
+
+- Whether there is a sign in the image
+- The color of the sign (both text and background)
+- Font styles, e.g., Sans-serif, Serif, Script
+
+Note: I'm not sure if this counts as an ML project because I didn't build any model, but rather explored existing models. If it doesn't count, I will follow up with the homework assignments after week 10.
 
 ## Milestone 02: On Process
 
-- I try to use this [YOLO world](https://huggingface.co/spaces/stevengrove/YOLO-World) and and “store sign” as a vocab
-- Here is the [colab notebook](https://colab.research.google.com/drive/1yWjTB8Jn_Nhl7WuIZPe4Y3TSePwLlPNd#scrollTo=23e065a1) that chatGPT helped me set up cause I have some problem with my python environment in my local vscode.
-- Here is all my [images](https://github.com/monsichasris/thesis/tree/main/public/street_view_images) from gg street view that I have in my github repo
+- I tried using this [YOLO World](https://huggingface.co/spaces/stevengrove/YOLO-World) with "store sign" as a vocabulary.
+- Here is the [Colab notebook](https://colab.research.google.com/drive/1yWjTB8Jn_Nhl7WuIZPe4Y3TSePwLlPNd#scrollTo=23e065a1) that ChatGPT helped me set up because I had some problems with my Python environment in my local VS Code.
+- Here are all my [images](https://github.com/monsichasris/thesis/tree/main/public/street_view_images) from Google Street View, which I have in my GitHub repo.
 
-- Try to detect the sign from the images from your reccommendation [Zero-shot object detection model on Colab](https://colab.research.google.com/drive/13NEVTO0-jVZzd8Inwl_DPUeSw6_Uf6K9?usp=sharing) Not really working when it give an index scores. It gave the score of something else more than the actual sign that I need.<br><br>
-  ![download](https://github.com/user-attachments/assets/c1b5455f-d6fc-4f7f-a4d5-665c63922542)
-  ![download (2)](https://github.com/user-attachments/assets/ec573cd3-dfac-4d7d-9198-9d1d6928d5dd)
+- I tried detecting signs in the images using your recommendation [Zero-shot object detection model on Colab](https://colab.research.google.com/drive/13NEVTO0-jVZzd8Inwl_DPUeSw6_Uf6K9?usp=sharing) However, it didn't work well because it gave higher scores to irrelevant objects rather than the actual signs I needed.<br><br>
+  <img src="https://github.com/user-attachments/assets/c1b5455f-d6fc-4f7f-a4d5-665c63922542" alt="download" width="400" />
+  <img src="https://github.com/user-attachments/assets/ec573cd3-dfac-4d7d-9198-9d1d6928d5dd" alt="download (2)" width="400" />
 
 ## Milestone 01: Ideation
 
