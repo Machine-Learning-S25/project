@@ -36,6 +36,11 @@ Using ML5.js together with the MET Open Data, I worked with images of Buddha/Bud
 It’s not super accurate — maybe the calculations or the input data aren’t quite robust yet — and it only worked on about 200 images from the archive. But still, it’s been a really fun experiment to explore! [Link to the site](https://monsichasris.github.io/living-sculpture/)
 
 I also have a folder documenting my process in the [Bonus folder](https://github.com/Machine-Learning-S25/project/tree/main/Bonus). I initially tried running everything in Python first, using MediaPipe (BlazePose) to store the positions, but when comparing with user input through ML5.js, the keypoints didn’t align the same way. So I switched to using ML5.js for both the archive processing and the user matching. You can check out the files and code in that folder.
+<br>
+<img width="800" alt="Screenshot 2025-05-07 at 1 19 33 AM" src="https://github.com/user-attachments/assets/68dcc0aa-bb3c-4410-8f6e-5a867ba9d375" />
+<br>Preview
+
+
 
 
 ## Milestone 3: Update
