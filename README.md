@@ -3,6 +3,24 @@
 <b>Machine Learning PSAM 5020 | Spring 2025</b><br>
 Monsicha Srisuantang, MS Data Visualisation Parsons School of Design
 
+## Milestone 4: 
+
+I successfully ran the OpenAI API on nearly 9,000 images! The full process took about three days.
+- First, I batch-processed the images — starting with 100 to tweak the prompts, then scaling up to 300–500 at a time. Only about 500 images didn’t detect any signs. Some of the misses weren’t actual store signs anyway, like ads on trucks in front of the store, because the original images came from Google Street View.
+<br>📓 Process notebook: [01_detect_imgs_openAI.ipynb](https://github.com/Machine-Learning-S25/project/blob/main/Milestone4/01_detect_imgs_openAI.ipynb)
+<br>🪄 Results: [store_sign_results.json](https://github.com/Machine-Learning-S25/project/blob/main/Milestone4/store_sign_results.json)
+
+- Next, I cleaned things up by filtering out images without signs and converting string outputs into arrays for easier to use. Afterthought, it would’ve been smoother if I’d set up the prompt to output arrays from the start — but I didn’t want to re-run everything, so I handled it after.
+<br>📓 Cleanup notebook: [02_explore_imgs.ipynb](https://github.com/Machine-Learning-S25/project/blob/main/Milestone4/02_explore_imgs.ipynb)
+<br>🪄 Cleaned results: [store_sign_cleaned.json](https://github.com/Machine-Learning-S25/project/blob/main/Milestone4/store_sign_cleaned.json)
+
+- Finally, I merged everything with my main store dataset using the image IDs, and now it’s all ready for my data viz thesis! 🎉
+<br>📓 Merge notebook: [03_merge_imgs.ipynb](https://github.com/Machine-Learning-S25/project/blob/main/Milestone4/03_merge_imgs.ipynb)
+<br>🪄 Merged results: [merged_df.json](https://github.com/Machine-Learning-S25/project/blob/main/Milestone4/merged_df.json)
+
+- If you’re curious, here’s [a demo video record of my thesis presentation](https://drive.google.com/file/d/1J-rOCbhMxKa1XDupdZsYDdb3-z3tZMyo/view?usp=sharing). I still have a few details to polish, but this shows how I’m using the results!
+
+
 ## Milestone 3: Update
 
 After exploring Zero-shot and YOLO World (files in the [milestone2](https://github.com/Machine-Learning-S25/project/tree/main/Milestone2) folder), which took a lot of time to run, I ended up using the OpenAI API to detect:
