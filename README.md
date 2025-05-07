@@ -18,7 +18,14 @@ I successfully ran the OpenAI API on nearly 9,000 images! The full process took 
 <br>📓 Merge notebook: [03_merge_imgs.ipynb](https://github.com/Machine-Learning-S25/project/blob/main/Milestone4/03_merge_imgs.ipynb)
 <br>🪄 Merged results: [merged_df.json](https://github.com/Machine-Learning-S25/project/blob/main/Milestone4/merged_df.json)
 
-- If you’re curious, here’s [a demo video record of my thesis presentation](https://drive.google.com/file/d/1J-rOCbhMxKa1XDupdZsYDdb3-z3tZMyo/view?usp=sharing). I still have a few details to polish, but this shows how I’m using the results!
+- If you’re curious, here’s [a demo video record of my thesis presentation](https://drive.google.com/file/d/1J-rOCbhMxKa1XDupdZsYDdb3-z3tZMyo/view?usp=sharing). I still have a few details to polish, but this shows how I’m using the results! Here are some preview✨
+  
+<img width="800" alt="Screenshot 2025-05-06 at 11 41 59 PM" src="https://github.com/user-attachments/assets/41660e29-1efd-4f78-ac33-4a1f73550337" />
+<br>Result images from green color stores
+<br><br>
+
+<img width="800" alt="Screenshot 2025-05-06 at 11 42 49 PM" src="https://github.com/user-attachments/assets/72762229-3021-45c3-9b66-be72872bde9a" />
+<br>Result on the map
 
 
 ## Milestone 3: Update
@@ -38,8 +45,8 @@ Note: I'm not sure if this counts as an ML project because I didn't build any mo
 - Here are all my [images](https://github.com/monsichasris/thesis/tree/main/public/street_view_images) from Google Street View, which I have in my GitHub repo.
 
 - I tried detecting signs in the images using your recommendation [Zero-shot object detection model on Colab](https://colab.research.google.com/drive/13NEVTO0-jVZzd8Inwl_DPUeSw6_Uf6K9?usp=sharing) However, it didn't work well because it gave higher scores to irrelevant objects rather than the actual signs I needed.<br><br>
-  <img src="https://github.com/user-attachments/assets/c1b5455f-d6fc-4f7f-a4d5-665c63922542" alt="download" width="400" />
-  <img src="https://github.com/user-attachments/assets/ec573cd3-dfac-4d7d-9198-9d1d6928d5dd" alt="download (2)" width="400" />
+  <img src="https://github.com/user-attachments/assets/c1b5455f-d6fc-4f7f-a4d5-665c63922542" width="400" />
+  <img src="https://github.com/user-attachments/assets/ec573cd3-dfac-4d7d-9198-9d1d6928d5dd" width="400" />
 
 ## Milestone 01: Ideation
 
