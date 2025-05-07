@@ -27,6 +27,13 @@ I successfully ran the OpenAI API on nearly 9,000 images! The full process took 
 <img width="800" alt="Screenshot 2025-05-06 at 11 42 49 PM" src="https://github.com/user-attachments/assets/72762229-3021-45c3-9b66-be72872bde9a" />
 <br>Result on the map
 
+## BONUS 👻
+From one of the ideas I proposed back in Milestone 1 — using a pose tracker to create something fun and interactive — I ended up developing this in another class, Data as Material, and wanted to share it here too!<br>
+
+Using ML5.js together with the MET Open Data, I worked with images of Buddha/Buddhist sculptures to detect their poses and store that pose data. Then, I calculated the distance between keypoints and let users upload their own image or capture from their webcam to try and match poses from the archive.<br>
+
+It’s not super accurate — maybe the calculations or the input data aren’t quite robust yet — and it only worked on about 200 images from the archive. But still, it’s been a really fun experiment to explore! [Link to the site](https://monsichasris.github.io/living-sculpture/)
+
 
 ## Milestone 3: Update
 
